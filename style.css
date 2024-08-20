@@ -1,0 +1,41 @@
+body{
+background-image: url(./wallpaper.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.cabecalho{
+    align-content: space-around;
+    display: flex;
+    align-content: center;
+    gap: 1.2rem;
+    list-style: none;
+    border: 2px solid whitesmoke;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 0.5rem;
+    position: relative;
+}
+.link::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all.6s ease;
+}
+
+.eu1{
+    height: 600px;
+    border-radius: 50%;
+    margin-left: 75%;
+}
